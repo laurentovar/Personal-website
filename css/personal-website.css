@@ -16,8 +16,10 @@ body {
 }
 
 p {
-    font-size: 90%;
+    font-size: 300%;
     line-height: 1.7;
+    font-family: 'Montserrat' ;
+
 }
 
 
@@ -49,8 +51,8 @@ header {
 }
 
 h1 {
-    font-family: 'Philosopher', sans-serif;
-    font-size: 250%;
+    font-family: 'Bungee Shade' ;
+    font-size: 450%;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -63,24 +65,28 @@ h1 {
 
 .text-box p {
     text-align: center;
-    font-style: italic;
+    /*font-style: italic;*/
     margin-bottom: 30px;
 }
 
 /*-----BUTTON ------*/
+.btn{
+    text-decoration: none !important;
+}
 .btn:link,
 .btn:visited,
 input[type=submit] {
+    font-family: 'Montserrat' ;
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     border-radius: 150px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    background: #ee8478;
-    border: 2px solid #eb685a;
+    background: #4F8AFF;
+    border: 2px solid #5C66FF;
     color: #fff;
-    font-size: 90%;
+    font-size: 150%;
     margin-right: 20px;
 }
 
@@ -88,7 +94,7 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #eb685a;
+    background-color: #7C7EFF;
     color: #fff;
     transition: 0.3s;
 }
