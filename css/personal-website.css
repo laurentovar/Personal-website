@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #3e4546;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 90%;
+    line-height: 1.7;
+}
+
+
+/*------- HEADER ------------*/
+
+header {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/2035413/pexels-photo-2035413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.text-box {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/*-----BUTTON ------*/
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 150px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background: #ee8478;
+    border: 2px solid #eb685a;
+    color: #fff;
+    font-size: 90%;
+    margin-right: 20px;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #eb685a;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+
