@@ -141,9 +141,9 @@ input[type=submit]:active {
 .card {
     font-size: 9px;
     padding: 16px;
-    text-align: center;
+    /*text-align: center;*/
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 0;
     /*background-color: #f1f1f1;*/
     border-radius: 2.25rem !important;
     margin-bottom: 30px;
@@ -153,4 +153,11 @@ input[type=submit]:active {
 #photo {
     width: 87% !important;
     margin-left: 50px;
+}
+p {
+    padding-left: 10px;
+}
+#aboutPara{
+    margin-top: 35px;
+    background-color: white !important;
 }
