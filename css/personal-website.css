@@ -21,7 +21,18 @@ p {
     font-family: 'Montserrat' ;
 
 }
+/*Nav*/
+nav{
+    background-color: #4F8AFF !important;
+    /*font-size: 20px !important;*/
+}
 
+.nav-link{
+    font-size: 23px !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
 
 /*------- HEADER ------------*/
 
@@ -50,7 +61,7 @@ header {
     transform: translate(-50%, -50%)
 }
 
-h1 {
+#name {
     font-family: 'Bungee Shade' ;
     font-size: 450%;
     font-weight: bold;
@@ -95,10 +106,9 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #7C7EFF;
-    color: #fff;
+    color: #fff !important;
     transition: 0.3s;
 }
-
 
 
 
