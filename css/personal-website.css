@@ -124,13 +124,33 @@ input[type=submit]:active {
     color: white;
     font-weight: normal;
 }
-.aboutMeCard{
-    width: 40%;
-    font-size: 24px !important;
-}
-.card{
-    margin-left: 7%;
-    border-radius: 3.25rem !important;
-    margin-bottom: 30px;
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 0;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    font-size: 9px;
+    padding: 16px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*background-color: #f1f1f1;*/
+    border-radius: 2.25rem !important;
+    margin-bottom: 30px;
+    background-color: #77a4ff !important;
+    border: none !important;
+}
+#photo {
+    width: 87% !important;
+    margin-left: 50px;
 }
