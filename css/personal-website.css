@@ -114,13 +114,14 @@ input[type=submit]:active {
 
 
 
-/*about me*/
+/*ABOUT ME*/
 .aboutMe {
+    font-family: 'Bungee Shade' ;
     background-color: #77a4ff !important;
-    padding-top: 25px;
+    padding-top: 50px;
     padding-bottom: 25px;
-    font-size: 3rem;
-    margin-left: 45% !important;
+    font-size: 3.4rem;
+    margin-left: 41% !important;
     color: white;
     font-weight: normal;
 }
@@ -161,3 +162,30 @@ p {
     margin-top: 35px;
     background-color: white !important;
 }
+
+/* Portfolio*/
+#portfolioTitle{
+    font-family: 'Bungee Shade' ;
+    color: white;
+    font-size: 3.4rem;
+
+}
+#portfolio {
+    padding: 100px 0 100px 0;
+}
+.image {
+    background-color: #5a5a5a;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+}
+.image:hover {
+    opacity: 0.6;
+    transition: .3s;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
