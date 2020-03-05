@@ -6,7 +6,7 @@
 
 html,
 body {
-    background-color: #77a4ff !important;
+    /*background-color: #77a4ff !important;*/
     color: #3e4546;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
@@ -24,7 +24,7 @@ p {
 }
 /*Nav*/
 nav{
-    background-color: #4F8AFF !important;
+    background-color: #2F4C5D !important;
     /*font-size: 20px !important;*/
 }
 
@@ -40,7 +40,7 @@ nav{
 
 header {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/2035413/pexels-photo-2035413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, -0.6)), url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -96,8 +96,8 @@ input[type=submit] {
     border-radius: 150px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    background: #4F8AFF;
-    border: 2px solid #5C66FF;
+    background: #1E4257;
+    border: 2px solid #1f3542;
     color: #fff;
     font-size: 150%;
     margin-right: 20px;
@@ -107,85 +107,12 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #7C7EFF;
+    background-color: #92c3db;
+    border: 2px solid #87aec1;
+
     color: #fff !important;
     transition: 0.3s;
 }
 
 
-
-/*ABOUT ME*/
-.aboutMe {
-    font-family: 'Bungee Shade' ;
-    background-color: #77a4ff !important;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    font-size: 3.4rem;
-    margin-left: 41% !important;
-    color: white;
-    font-weight: normal;
-}
-
-.column {
-    float: left;
-    width: 50%;
-    padding: 0 0;
-}
-
-.row {margin: 0 -5px;}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.card {
-    font-size: 9px;
-    padding: 16px;
-    /*text-align: center;*/
-    margin-left: 50px;
-    margin-right: 0;
-    /*background-color: #f1f1f1;*/
-    border-radius: 2.25rem !important;
-    margin-bottom: 30px;
-    background-color: #77a4ff !important;
-    border: none !important;
-}
-#photo {
-    width: 87% !important;
-    margin-left: 50px;
-}
-p {
-    padding-left: 10px;
-}
-#aboutPara{
-    margin-top: 35px;
-    background-color: white !important;
-}
-
-/* Portfolio*/
-#portfolioTitle{
-    font-family: 'Bungee Shade' ;
-    color: white;
-    font-size: 3.4rem;
-
-}
-#portfolio {
-    padding: 100px 0 100px 0;
-}
-.image {
-    background-color: #5a5a5a;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    transition: .5s;
-}
-.image:hover {
-    opacity: 0.6;
-    transition: .3s;
-    background-image: url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
