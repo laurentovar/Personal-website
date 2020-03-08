@@ -19,10 +19,10 @@ body {
 p {
     font-size: 300%;
     line-height: 1.7;
-    font-family: 'Montserrat' ;
+    font-family: 'Montserrat';
 
 }
-/*Nav*/
+/*-------NAV-------------*/
 nav{
     background-color: #2F4C5D !important;
     /*font-size: 20px !important;*/
@@ -64,7 +64,7 @@ header {
 }
 
 #name {
-    font-family: 'Bungee Shade' ;
+    font-family: 'Bungee Shade';
     font-size: 450%;
     font-weight: bold;
     text-transform: uppercase;
@@ -125,3 +125,32 @@ input[type=submit]:active {
     transition: 0.3s;
 }
 
+
+/*-------ABOUT ME-------*/
+.about-myself {
+    text-align: center;
+    padding: 50px 0;
+    height: 35rem;
+    background-color:#2F4C5D;
+}
+
+
+
+#aboutMe{
+    margin-top: 12px;
+    margin-bottom: 39px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-family: 'Bungee Shade';
+    font-size: 72px;
+
+}
+
+.aboutmePara{
+    color: white;
+    max-width: 83rem;
+    margin: auto;
+    text-align: left;
+    font-size: 31px;
+}
