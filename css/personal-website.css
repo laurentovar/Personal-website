@@ -139,7 +139,7 @@ input[type=submit]:active {
 
 
 #aboutMe{
-    margin-top: 12px;
+    margin-top: 66px;
     margin-bottom: 39px;
     text-align: center;
     display: inline-block;
@@ -155,4 +155,14 @@ input[type=submit]:active {
     margin: auto;
     text-align: left;
     font-size: 31px;
+}
+
+.img-profile{
+    max-width: 15%;
+    position: absolute;
+    left: 51%;
+    top: 105%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    /*border: 5px solid $bg-gradient-1;*/
 }
