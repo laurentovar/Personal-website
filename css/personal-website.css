@@ -175,13 +175,21 @@ input[type=submit]:active {
     font-size: 9px;
     margin-left: 22px !important;
     margin-right: 21px !important;
-    margin-top: 50px !important;
+    /*margin-top: 100px !important;*/
+    margin-bottom: 30px !important;
 }
 
 #valuesTitle {
     font-family: 'Bungee Shade';
     color: white;
     font-size: 72px;
+    margin-top: 110px;
+    margin-left: 41%;
+    padding-bottom: 40px;
+}
+.valuesSection{
+    height: 37rem;
+
 }
 
 
