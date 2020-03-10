@@ -6,7 +6,7 @@
 
 html,
 body {
-    /*background-color: #77a4ff !important;*/
+    background-color: #CCD0CF !important;
     color: #3e4546;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
@@ -22,15 +22,17 @@ p {
     font-family: 'Montserrat';
 
 }
+
 /*-------NAV-------------*/
-nav{
+nav {
     background-color: #2F4C5D !important;
     /*font-size: 20px !important;*/
 }
 
-.nav-link{
+.nav-link {
     font-size: 23px !important;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: white !important;
 }
@@ -81,6 +83,7 @@ header {
     /*font-style: italic;*/
     margin-bottom: 10px;
 }
+
 .text-box {
     background: rgba(255, 255, 255, 0.2);
     position: absolute;
@@ -93,14 +96,16 @@ header {
     text-align: center;
 
 }
+
 /*-----BUTTON ------*/
-.btn{
+.btn {
     text-decoration: none !important;
 }
+
 .btn:link,
 .btn:visited,
 input[type=submit] {
-    font-family: 'Montserrat' ;
+    font-family: 'Montserrat';
     display: inline-block;
     padding: 10px 30px;
     /*font-weight: 300;*/
@@ -133,12 +138,11 @@ input[type=submit]:active {
     text-align: center;
     padding: 50px 0;
     height: 35rem;
-    background-color:#2F4C5D;
+    background-color: #2F4C5D;
 }
 
 
-
-#aboutMe{
+#aboutMe {
     margin-top: 66px;
     margin-bottom: 39px;
     text-align: center;
@@ -149,7 +153,7 @@ input[type=submit]:active {
 
 }
 
-.aboutmePara{
+.aboutmePara {
     color: white;
     max-width: 83rem;
     margin: auto;
@@ -157,12 +161,27 @@ input[type=submit]:active {
     font-size: 31px;
 }
 
-.img-profile{
+.img-profile {
     max-width: 15%;
     position: absolute;
     left: 51%;
     top: 105%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 50%;
-    /*border: 5px solid $bg-gradient-1;*/
 }
+
+/*VALUES*/
+.skillsCards {
+    font-size: 9px;
+    margin-left: 22px !important;
+    margin-right: 21px !important;
+    margin-top: 50px !important;
+}
+
+#valuesTitle {
+    font-family: 'Bungee Shade';
+    color: white;
+    font-size: 72px;
+}
+
+
