@@ -170,13 +170,15 @@ input[type=submit]:active {
     border-radius: 50%;
 }
 
-/*VALUES*/
+/*------VALUES------*/
 .skillsCards {
     font-size: 9px;
     margin-left: 22px !important;
     margin-right: 21px !important;
     /*margin-top: 100px !important;*/
     margin-bottom: 30px !important;
+    font-family: 'Muli', sans-serif !important;
+
 }
 
 #valuesTitle {
@@ -185,11 +187,28 @@ input[type=submit]:active {
     font-size: 72px;
     margin-top: 110px;
     margin-left: 41%;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .valuesSection{
     height: 37rem;
+}
+.card-deck .card {
+    background: none !important;
+    border: none !important;
+}
+.card-img-top {
+    height: 100px !important;
+    width: 100px !important;
+    margin-left: 203px !important;
+}
+#userExperience{
+margin-left: 24%;
+}
+#creative{
+    margin-left: 22%;
 
 }
-
+#teamwork{
+margin-left: 31% !important;
+}
 
