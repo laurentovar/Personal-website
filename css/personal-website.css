@@ -333,5 +333,28 @@ img {
     height: 13.6rem;
 }
 
+/*CONTACT*/
 
+footer {
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCD0CF;
 
+}
+
+.footer-item {
+    float: left;
+    list-style-type: none !important;
+
+}
+
+.footer-item a {
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
