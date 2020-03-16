@@ -170,6 +170,7 @@ input[type=submit]:active {
     top: 105%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+    /*display:none;*/
 }
 
 /*------VALUES------*/
@@ -367,4 +368,5 @@ footer {
 
 #codeup {
     width: 95%;
+    padding-left: 7px;
 }
