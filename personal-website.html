@@ -80,7 +80,7 @@
             <img class="card-img-top " id="teamImg" src="img/computerPhone.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title tracking-in-expand " id="teamwork"><b>RESPONSIVE DESIGN</b></h5>
-                <p class="card-text" >I strive to create my designs as responsive and available as possible across all
+                <p class="card-text">I strive to create my designs as responsive and available as possible across all
                     devices.</p>
             </div>
         </div>
@@ -109,30 +109,33 @@
 
     <div class="projects">
 
+        <div class="project container">
+            <a href="#">
+                <div class="project-overlay image"></div>
+                <img id="healthology" alt="healthology" src="img/healthology.png">
+                <div class="project-details overlay" id="healthologyOverlay">
+                    <p class="project-description text">Full-stack application that utilizes the Agile pattern, Thymeleaf Spring Boot, google charts and filestack API for people suffering from mental disorders but want a strong support system. Clients are placed in groups that are tailored to their needs. Once placed into groups, the users communicate through TalkJs api to imitate virtual group therapy sessions. </p>
+                </div>
+            </a>
+        </div>
+
+
         <div class="project">
             <a href="#">
                 <div class="project-overlay"></div>
-                <img class="project-image" id="healthology" src="img/healthology.png">
+                <img class=" project-image" id="lessonLister" alt="lessonlister" src="img/lessonLister.png">
                 <div class="project-details">
                     <p class="project-description">Description</p>
                 </div>
             </a>
         </div>
 
-        <div class="project">
-            <a href="#">
-                <div class="project-overlay"></div>
-                <img class="project-image" id="lessonLister" src="img/lessonLister.png">
-                <div class="project-details">
-                    <p class="project-description">Description</p>
-                </div>
-            </a>
-        </div>
 
         <div class="project">
             <a href="#">
                 <div class="project-overlay"></div>
-                <img class="project-image" src="img/placeholder.png">
+
+                <img class="project-image" id="placeholder" alt="placeholder" src="img/placeholder.png">
                 <div class="project-details">
                     <p class="project-description">Description</p>
                 </div>
@@ -196,16 +199,15 @@
         </li>
     </ul>
 </footer>
-<script>
-    $(window).scroll(function() {
 
-        if ($(this).scrollTop()>1000)
-        {
+
+<script>
+    $(window).scroll(function () {
+
+        if ($(this).scrollTop() > 1000) {
             $('.a').fadeIn();
 
-        }
-        else
-        {
+        } else {
             $('.a').fadeOut();
 
         }
